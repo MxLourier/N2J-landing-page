@@ -184,7 +184,6 @@ button {
   margin-bottom: 23px;
   width: 256px;
   height: 450px;
-  z-index: -2;
   position: relative;
 }
 
