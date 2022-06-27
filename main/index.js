@@ -1,4 +1,12 @@
 
-function navbarHover() {
-  this.querySelector("rect").setAttribute("fill", "red");
+function navbarHover(el) {
+  el.querySelector("svg").style.display="inline";
+}
+
+function navbarUnhover(el) {
+  el.querySelector("svg").style.display="none";
+}
+
+function creationHover() {
+  alert("CreationHover!");
 }
