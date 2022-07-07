@@ -1,3 +1,13 @@
+let open = document.getElementById("icon-open");
+let close = document.getElementById("icon-close");
+
+open.addEventListener("click", ()=>{
+  document.querySelector(".menu").style.display = "block";
+})
+
+close.addEventListener("click", ()=>{
+  document.querySelector(".menu").style.display = "none";
+})
 
 function navbarHover(el) {
   el.querySelector("svg").style.display="inline";
